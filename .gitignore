@@ -1,41 +1,71 @@
-CLAUDE.local.md
-.env
+```
+# Dependencies
 node_modules/
-lib/
-*.tsbuildinfo
-pnpm-debug.log
-.pnpm-store/
-.cache/
-examples/*/*.jsonl
-.storages/
-.sessions/
-examples/*/.sessions/
-coverage/
-.doc-typecheck-*/
-.node-next-types-*/
-.oxlint-contract-*/
-.oxlintrc.contract-*.json
-oxlint-contract-*.ts
-.humanize/
-tmp/
-.claude/commands/
-.claude/launch.json
-.claude/settings.json
+
+# Build artifacts
+dist/
+build/
+target/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
 .vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.coverage
+coverage/
+htmlcov/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# OS generated files
 .DS_Store
-.idea
-mise.toml
-dist-exe/
-python/sdk-runtime/src/deepseek_harness_runtime/runtime/dsh-jsonrpc-agent-*
-python/sdk-runtime/src/deepseek_harness_runtime/runtime/node/
-python/**/__pycache__/
-python/**/.pytest_cache/
-apps/web/dist/
-.artifacts/
-.dsh-build/
-.playwright-mcp/
-.orig
-.worktrees/
-worktrees/
-.agents/worktrees/
-.typert-*/
+Thumbs.db
+
+# Testing
+.mypy_cache/
+.pytest_cache/
+.nyc_output/
+coverage/
+
+# Compression
+*.zip
+*.gz
+*.tar
+*.tgz
+*.bz2
+*.xz
+*.7z
+*.rar
+*.zst
+*.lz4
+*.lzh
+*.cab
+*.arj
+*.rpm
+*.deb
+*.Z
+*.lz
+*.lzo
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.tar.zst
+```
