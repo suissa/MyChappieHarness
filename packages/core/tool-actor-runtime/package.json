@@ -1,0 +1,21 @@
+{
+  "name": "@deepseek-ai/dsh-tool-actor-runtime",
+  "version": "0.0.1",
+  "description": "Tool Actor Runtime - Universal execution model based on Actors and Events for DeepSeek Harness",
+  "type": "module",
+  "main": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh-session": "workspace:*",
+    "@deepseek-ai/dsh-llm": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
